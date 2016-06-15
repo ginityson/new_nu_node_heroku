@@ -8,6 +8,6 @@ var server = app.listen(8080, 'localhost', function() {
 app.get('/', function (req, res) {
   console.log("howdy from Gini's base url get heroku solo");
   res.writeHead(200);
-  res.write("here I am in Gini's base url for heroku solo");
+  res.write("here here I am in Gini's base url for heroku solo");
   res.end();
 });
